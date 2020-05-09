@@ -23,12 +23,12 @@
     <link rel="stylesheet" href="{{ "/assets/css/rouge-github.css" | prepend: site.baseurl }}">
 
     <!-- jQuery -->
-    <script src="/assets/js/jquery.min.js"></script>
+    <script src="{{ "/assets/js/jquery.min.js" | prepend: site.baseurl}}"></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl}}"></script>
 
     <!-- Regular Disquss -->
-    <script src="/assets/js/disqus.js"></script>
+    <script src="{{ "/assets/js/disqus.js" | prepend: site.baseurl}}"></script>
 
     {% if page.math %}
     <script type="text/x-mathjax-config">
