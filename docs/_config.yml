@@ -1,9 +1,27 @@
 # Site settings
 title: Arthur Lui
 email: luiarthur@gmail.com
-description: "Just a test"
+description: "Put a description here"
 url: "http://luiarthur.github.io/test_gh_pages"
+# google_analytics: <put google analytics seo tag here>
+
+plugins:
+  # search engine optimization
+  - jekyll-seo-tag
+  # create sitemap
+  - jekyll-sitemap
 
 # Build settings
 markdown: kramdown
 permalink: /:title
+
+# To include special collections:
+#   create a dir called _mycollections, and put things there
+# You can replace `mycollections` with anything
+# http://jekyllrb.com/docs/collections/
+# NOTE: Uncomment below 
+#
+# collections:
+#   mycollection:
+#     output: true
+#     permalink: /mycollection/:title/
