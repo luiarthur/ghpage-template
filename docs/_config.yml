@@ -2,7 +2,6 @@
 title: "My site title"
 email: luiarthur@gmail.com
 description: "Put a description here"
-url: "http://luiarthur.github.io/test_gh_pages"
 # google_analytics: <put google analytics seo tag here>
 
 plugins:
