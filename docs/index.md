@@ -12,17 +12,18 @@ It is way more interesting.
 {% for post in site.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h4 class="post-title">
-            {{ post.title }}
-            {% if post.subtitle %}
-            &mdash;
-            <a class="post-subtitle">
-                {{ post.subtitle }}
-            </a>
-            {% endif %}
-        </h4>
+        &raquo; {{ post.title }}
+        {% if post.subtitle %}
+        &mdash;
+        <a class="post-subtitle">
+            {{ post.subtitle }}
+        </a>
+        {% endif %}
     </a>
-    <p class="post-meta">Posted on {{ post.date | date: "%-d %b, %Y" }}</p>
+    <p class="post-meta" style="font-size: 16px">
+       Posted on {{ post.date | date: "%-d %b, %Y" }}
+    </p>
 </div>
-<hr>
 {% endfor %}
+
+

@@ -16,3 +16,8 @@ body {
   font-size: 21px;
   font-weight: 300;
 }
+/* For compatible mathjax fontsizes. */
+.mjx-chtml {
+  font-size: 100% !important;
+}
+

@@ -1,7 +1,8 @@
 # Site settings
 title: "My site title"
-email: luiarthur@gmail.com
+email: myemail@gmail.com
 description: "Put a description here"
+# github_repo: https://github.com/<username>/<name-of-repo>
 # google_analytics: <put google analytics seo tag here>
 
 plugins:
