@@ -34,3 +34,6 @@ pre.highlight {
   padding: 10px;
   border-radius: 10px;
 }
+.row.main-content {
+  margin-top: 2em;
+}
