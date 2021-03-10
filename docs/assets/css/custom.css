@@ -23,10 +23,6 @@ body {
   font-size: var(--main-font-size);
   font-weight: var(--main-font-weight);
 }
-/* For compatible mathjax fontsizes. */
-.mjx-chtml {
-  font-size: 100% !important;
-}
 footer {
   font-size: calc(var(--main-font-size) * 0.7);
 }
