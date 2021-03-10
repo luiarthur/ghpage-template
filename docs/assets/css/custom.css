@@ -2,7 +2,6 @@
   --main-font-family: 'Roboto', sans-serif;
   --main-font-weight: 400;
   --main-bold-font-weight: 500;
-  /*--main-font-size: 21px;*/
   --main-font-size: 26px;
 }
 div#disqus_thread {
@@ -15,9 +14,15 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: var(--main-bold-font-weight);
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: calc(var(--main-font-size) * 0.4);
+  padding-top: calc(var(--main-font-size) * 0.4);
 }
+h1 { font-size: calc(var(--main-font-size) / .50); }
+h2 { font-size: calc(var(--main-font-size) / .60); }
+h3 { font-size: calc(var(--main-font-size) / .70); }
+h4 { font-size: calc(var(--main-font-size) / .80); }
+h5 { font-size: calc(var(--main-font-size) / .90); }
+h6 { font-size: calc(var(--main-font-size) / .95); }
 strong { font-weight: var(--main-bold-font-weight); }
 body {
   font-size: var(--main-font-size);
@@ -27,9 +32,9 @@ footer {
   font-size: calc(var(--main-font-size) * 0.7);
 }
 pre.highlight {
-  padding: 10px;
-  border-radius: 10px;
+  padding: calc(var(--main-font-size) * 0.4);
+  border-radius: calc(var(--main-font-size) * 0.4);
 }
 .row.main-content {
-  margin-top: 2em;
+  margin-top: calc(var(--main-font-size) * 2.5);
 }

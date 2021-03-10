@@ -5,5 +5,4 @@ inNav: on
 ---
 
 # About Me
-
 Put a little about me here.
