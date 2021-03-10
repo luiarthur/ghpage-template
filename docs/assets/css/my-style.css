@@ -7,9 +7,6 @@
 div#disqus_thread {
   margin-top: 100px;
 }
-div#footer_wrap {
-  padding: 20px;
-}
 /* font stuff */
 body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
@@ -28,4 +25,7 @@ body {
 /* For compatible mathjax fontsizes. */
 .mjx-chtml {
   font-size: 100% !important;
+}
+footer {
+  font-size: calc(var(--main-font-size) * 0.7);
 }
