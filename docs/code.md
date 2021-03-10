@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Code Block Highlighting
+title: Code
 inNav: on
 ---
 
 
-# Here is some code I want to be highlighted
+# Code Highlighting
 
 ```python
 import numpy as np

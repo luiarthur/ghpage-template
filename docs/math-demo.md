@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Test page
+title: Math-demo
 inNav: on
 math: on
 ---
 
-# This is a test page
+# Math Demo
 
 This is how you [create github pages manually][1].
 

@@ -1,5 +1,5 @@
 # Site settings
-title: "My site title"
+title: "Set site Title in _config.yml"
 email: myemail@gmail.com
 description: "Put a description here"
 # github_repo: https://github.com/<username>/<name-of-repo>

@@ -2,13 +2,14 @@
 layout: page
 ---
 
-# This is the home page!
+# Home page
 
-Check out this <a href="{{site.baseurl}}/test-page.html"> test page</a>!
+Check out this <a href="{{site.baseurl}}/math-demo.html"> page with math</a>!
 It is way more interesting. 
 
 <hr>
 
+## Posts
 {% for post in site.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
