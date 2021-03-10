@@ -1,3 +1,8 @@
+/* NOTE: Based on:
+ *
+ * https://github.com/luiarthur/dissertation-web-slides 
+ *
+ */
 .katex {
   font-size: calc(var(--main-font-size));
 }
