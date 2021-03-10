@@ -9,7 +9,7 @@
 }
 .katex .base, .katex .mathnormal {
   font-family: var(--main-font-family);
-  font-weight: var(--main-font-weight;);
+  font-weight: var(--main-font-weight);
 }
 .katex .accent-body .mord, .katex .mrel, .katex .mbin, .katex .mopen,
 .katex .mclose {

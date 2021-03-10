@@ -1,7 +1,7 @@
 :root {
   --main-font-family: 'Roboto', sans-serif;
-  --main-font-weight: 400;
-  --main-bold-font-weight: 500;
+  --main-font-weight: 300;
+  --main-bold-font-weight: 400;
   --main-font-size: 26px;
 }
 div#disqus_thread {
@@ -9,7 +9,7 @@ div#disqus_thread {
 }
 /* font stuff */
 body, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font-family);
   color: black;
 }
 h1, h2, h3, h4, h5, h6 {
