@@ -6,10 +6,11 @@ layout: default
 </header-->
 
 <!-- Main Content -->
-<div class="row main-content">
+<div class="row">
 	<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
 		{{ content }}
     <hr>
+    {% include pager.html %}
     <div id="disqus_thread"></div>
     {% include footer.html %}
     <noscript>

@@ -1,21 +1,13 @@
 .navbar-custom {
-  /*background: white;*/
-  /*z-index: 3;*/
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
   padding: 0;
 }
-.navbar-custom .navbar-toggler {
-  border: 0;
-}
+.navbar-custom .navbar-toggler { border: 0; }
 .navbar-custom .navbar-toggler:focus,
 .navbar-custom .navbar-toggler:active,
 .navbar-custom .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
 }
-.navbar-custom .navbar-brand {
-  font-size: var(--main-font-size);
+.navbar-custom * {
+  font-size: calc(var(--main-font-size) * 0.8);
 }

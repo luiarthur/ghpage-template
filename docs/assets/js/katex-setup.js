@@ -1,7 +1,6 @@
 import "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js";
 import "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js";
 
-// KaTeX
 $(document).ready(() => {
   renderMathInElement(document.body, {
     // ...options...
