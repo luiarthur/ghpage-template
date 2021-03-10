@@ -7,8 +7,6 @@ math: on
 
 # Math Demo
 
-This is how you [create github pages manually][1].
-
 And here is some display math:
 
 $$
@@ -24,4 +22,5 @@ X_i &\ind \text{Exponential}(\theta) \\
 \end{aligned}
 $$
 
-[1]: https://help.github.com/articles/creating-project-pages-manually
+Also, note that I am using the `Roboto` font, and not the default KaTeX (serif)
+math font.

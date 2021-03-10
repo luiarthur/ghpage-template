@@ -7,6 +7,8 @@ layout: page
 Check out this <a href="{{site.baseurl}}/math-demo.html"> page with math</a>!
 It is way more interesting. 
 
+Also, this is how you [create github pages manually][1].
+
 <hr>
 
 ## Posts
@@ -28,3 +30,4 @@ It is way more interesting.
 {% endfor %}
 
 
+[1]: https://help.github.com/articles/creating-project-pages-manually
