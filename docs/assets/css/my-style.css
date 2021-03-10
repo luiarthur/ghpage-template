@@ -1,23 +1,28 @@
+:root {
+  --main-font-family: 'Roboto', sans-serif;
+  --main-font-weight: 300;
+  --main-bold-font-weight: 400;
+  --main-font-size: 21px;
+}
 div#footer_wrap {
   padding: 20px;
 }
-
 /* font stuff */
 body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
+  color: black;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
+  font-weight: var(--main-bold-font-weight);
   padding-top: 30px;
   padding-bottom: 10px;
 }
-strong { font-weight: 400; }
+strong { font-weight: var(--main-bold-font-weight); }
 body {
-  font-size: 21px;
-  font-weight: 300;
+  font-size: var(--main-font-size);
+  font-weight: var(--main-font-weight);
 }
 /* For compatible mathjax fontsizes. */
 .mjx-chtml {
   font-size: 100% !important;
 }
-
