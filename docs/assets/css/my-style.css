@@ -1,8 +1,11 @@
 :root {
   --main-font-family: 'Roboto', sans-serif;
-  --main-font-weight: 300;
-  --main-bold-font-weight: 400;
+  --main-font-weight: 400;
+  --main-bold-font-weight: 500;
   --main-font-size: 21px;
+}
+div#disqus_thread {
+  margin-top: 100px;
 }
 div#footer_wrap {
   padding: 20px;
