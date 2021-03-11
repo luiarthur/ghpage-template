@@ -5,6 +5,8 @@
            data-toggle="tooltip" data-placement="top"
           title="{{page.previous.title}}">&larr; Previous</a>
     </button>
+    {% else %}
+    <div></div>
     {% endif %}
     {% if page.next.url %}
     <button class="next btn btn-secondary btn-custom">
