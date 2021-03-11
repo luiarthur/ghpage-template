@@ -22,5 +22,5 @@ X_i &\ind \text{Exponential}(\theta) \\
 \end{aligned}
 $$
 
-Also, note that I am using the `Roboto` font, and not the default KaTeX (serif)
+Also, note that I am using the `Fira Sans` font, and not the default KaTeX (serif)
 math font.
