@@ -35,3 +35,7 @@ pre.highlight {
   padding: calc(var(--main-font-size) * 0.4);
   border-radius: calc(var(--main-font-size) * 0.4);
 }
+code {
+  color: #c7254e;
+  background-color: #f9f2f4;
+}
