@@ -1,6 +1,6 @@
-.PHONY: clean serve clean_serve
+.PHONY: clean serve clean-serve
 
-all: clean_serve
+all: clean-serve
 
 clean:
 	rm -rf _site
