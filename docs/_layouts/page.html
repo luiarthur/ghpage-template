@@ -11,7 +11,9 @@ layout: default
 		{{ content }}
     <hr>
     {% include pager.html %}
+    {% if page.comments %}
     <div id="disqus_thread"></div>
+    {% endif %}
     {% include footer.html %}
     <noscript>
       Please enable JavaScript to view the 
