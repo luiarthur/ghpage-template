@@ -2,6 +2,7 @@
 title: "Site Title"
 email: myemail@gmail.com
 description: "Put a description here"
+disqus_shortname: "" # defaults to "<github-user-name>githubio"
 # github_repo: https://github.com/<username>/<name-of-repo>
 # google_analytics: <put google analytics seo tag here>
 
