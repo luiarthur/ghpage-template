@@ -22,5 +22,9 @@ X_i &\ind \text{Exponential}(\theta) \\
 \end{aligned}
 $$
 
+$$
+\bm y \sim \text{MvNormal}(\bm\mu, \bm\Sigma)
+$$
+
 Also, note that I am using the `Fira Sans` font, and not the default KaTeX (serif)
 math font.
